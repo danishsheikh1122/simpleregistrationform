@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #abdbe3;
+}
+body main {
+  width: 60%;
+  height: 80%;
+  background-color: white;
+  border-radius: 4rem;
+  border: 2px solid rgb(54, 105, 96);
+  box-shadow: 0.3rem 0.3rem 1.5rem black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+body form {
+  padding: 1rem;
+  width: 60%;
+}
+body form .firstrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem 1rem;
+}
+body form .firstrow .leftfname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body form .firstrow .leftfname label {
+  font-size: 1.6rem;
+  text-align: center;
+}
+body form .firstrow .leftfname input {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  width: 80%;
+  height: 60%;
+}
+body form .firstrow .leftfname input::-moz-placeholder {
+  font-size: 1rem;
+}
+body form .firstrow .leftfname input::placeholder {
+  font-size: 1rem;
+}
+body form .firstrow .rightlname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body form .firstrow .rightlname label {
+  font-size: 1.6rem;
+  text-align: center;
+}
+body form .firstrow .rightlname input {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  width: 80%;
+  height: 60%;
+}
+body form .firstrow .rightlname input::-moz-placeholder {
+  font-size: 1rem;
+}
+body form .firstrow .rightlname input::placeholder {
+  font-size: 1rem;
+}
+body form .secondrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+body form .secondrow .leftemail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+body form .secondrow .leftemail label {
+  font-size: 1.6rem;
+  text-align: center;
+}
+body form .secondrow .leftemail input {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  width: 80%;
+  height: 60%;
+}
+body form .secondrow .leftemail input::-moz-placeholder {
+  font-size: 1rem;
+}
+body form .secondrow .leftemail input::placeholder {
+  font-size: 1rem;
+}
+body form .secondrow .rightjobrole {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+body form .secondrow .rightjobrole label {
+  text-align: center;
+  font-size: 1.6rem;
+}
+body form .secondrow .rightjobrole select {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+  width: 60%;
+  height: 60%;
+}
+body form .secondrow .rightjobrole select option {
+  font-size: 1rem;
+}
+body form .thirdrow .leftaddress {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body form .thirdrow .leftaddress label {
+  text-align: center;
+  font-size: 1.6rem;
+}
+body form .thirdrow .leftaddress #address {
+  width: 50%;
+  height: 30%;
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+}
+body form .forthrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+body form .forthrow .leftcity {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body form .forthrow .leftcity label {
+  text-align: center;
+  font-size: 1.6rem;
+}
+body form .forthrow .leftcity input {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  width: 80%;
+  height: 60%;
+}
+body form .forthrow .leftcity input::-moz-placeholder {
+  font-size: 1rem;
+}
+body form .forthrow .leftcity input::placeholder {
+  font-size: 1rem;
+}
+body form .forthrow .rightpincode {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body form .forthrow .rightpincode label {
+  text-align: center;
+  font-size: 1.6rem;
+}
+body form .forthrow .rightpincode input {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  width: 80%;
+  height: 60%;
+}
+body form .forthrow .rightpincode input::-moz-placeholder {
+  font-size: 1rem;
+}
+body form .forthrow .rightpincode input::placeholder {
+  font-size: 1rem;
+}
+body form .fifthrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+body form .fifthrow .leftdate {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body form .fifthrow .leftdate label {
+  text-align: center;
+  font-size: 1.6rem;
+}
+body form .fifthrow .leftdate input {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  width: 80%;
+  height: 60%;
+}
+body form .fifthrow .leftdate input::-moz-placeholder {
+  font-size: 1rem;
+}
+body form .fifthrow .leftdate input::placeholder {
+  font-size: 1rem;
+}
+body form .fifthrow .rightcv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+body form .fifthrow .rightcv label {
+  width: 50%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+body form .fifthrow .rightcv input {
+  width: 50%;
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  width: 80%;
+  height: 60%;
+}
+body form .submit {
+  margin-top: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body form .submit input {
+  font-size: 1.4rem;
+  width: 40%;
+  background-color: paleturquoise;
+  border: 2px solid gray;
+  color: gray;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+body form .submit input:hover {
+  transform: scale(0.9);
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  html {
+    font-size: 9px;
+  }
+  main {
+    width: 50%;
+    height: 25%;
+  }
+}
+@media (min-width: 481px) and (max-width: 780px) {
+  html {
+    font-size: 10px;
+  }
+  main {
+    width: 50%;
+    height: 25%;
+  }
+}
+@media (min-width: 781px) and (max-width: 1500px) {
+  html {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=main.css.map */

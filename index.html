@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <main>
+        <h1>Job Application Form</h1>
+        <form action="backend.php">
+            <div class="firstrow">
+
+                <div class="leftfname">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="" id="fname" placeholder="Enter First name">
+                </div>
+                <div class="rightlname">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="" id="lname" placeholder="Enter Last name">
+                </div>
+            </div>
+
+
+            <div class="secondrow">
+
+                <div class="leftemail">
+                    <label for="email">Email</label>
+                    <input type="text" name="" id="email" placeholder="Enter email">
+                </div>
+                <div class="rightjobrole">
+                    <label for="jobrole">Job Role</label>
+                    <select id="jobrole">
+                        <option value="initial" selected disabled>select any</option>
+                        <option value="">Front-end developer</option>
+                        <option value="">Front-end developer</option>
+                        <option value="">Front-end developer</option>
+                        <option value="">Front-end developer</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+            <div class="thirdrow">
+
+                <div class="leftaddress">
+                    <label for="address">
+                        Enter Address
+                    </label>
+                    <textarea name="" id="address" cols="25" rows="5"></textarea>
+                </div>
+            </div>
+
+            <div class="forthrow">
+                <div class="leftcity">
+                    <label for="city">City</label>
+                    <input type="text" name="" id="city" placeholder="Enter your city name">
+                </div>
+                <div class="rightpincode">
+                    <label for="pincode">Pincode</label>
+                    <input type="text" name="" id="pincode" placeholder="enter your city pincode ">
+                </div>
+
+            </div>
+
+
+            <div class="fifthrow">
+                <div class="leftdate">
+                    <label for="date">Start Date</label>
+                    <input type="date" name="" id="date">
+                </div>
+                <div class="rightcv">
+                    <label for="cv">Upload Your CV</label>
+                    <input type="file" name="" id="cv">
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+
+
+
+
+
+
+        </form>
+    </main>
+</body>
+
+</html>
